@@ -28,21 +28,21 @@ Telefone: ${formData.phone}
 Serviço: ${formData.service}
 Mensagem: ${formData.message}`
     
-    window.open(`https://wa.me/5511999999999?text=${encodeURIComponent(whatsappMessage)}`, '_blank')
+    window.open(`https://wa.me/5562981647087?text=${encodeURIComponent(whatsappMessage)}`, '_blank')
   }
 
   const contactInfo = [
     {
       icon: <Phone className="text-blue-600" size={24} />,
       title: "Telefone",
-      info: "(11) 99999-9999",
-      action: "tel:+5511999999999"
+      info: "(62) 98164-7087",
+      action: "tel:+5562981647087"
     },
     {
       icon: <Mail className="text-blue-600" size={24} />,
       title: "E-mail",
-      info: "contato@portasautomaticas.com.br",
-      action: "mailto:contato@portasautomaticas.com.br"
+      info: "cac.portas.automaticas@gmail.com",
+      action: "mailto:cac.portas.automaticas@gmail.com"
     },
     {
       icon: <MapPin className="text-blue-600" size={24} />,
@@ -138,7 +138,7 @@ Mensagem: ${formData.message}`
                       onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      placeholder="(11) 99999-9999"
+                      placeholder="(62) 98164-7087"
                     />
                   </div>
                   <div>
@@ -279,7 +279,7 @@ Mensagem: ${formData.message}`
             onClick={() => window.open('https://wa.me/5511999999999?text=EMERGÊNCIA - Preciso de atendimento urgente!', '_blank')}
           >
             <Phone className="mr-2" size={20} />
-            Emergência: (11) 99999-9999
+            Emergência: (62) 98164-7087
           </Button>
         </div>
       </div>
